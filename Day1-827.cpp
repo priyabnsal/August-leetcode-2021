@@ -5,7 +5,6 @@ public:
     #define F first
     #define S second
     #define pii pair<int,int>
- 
     vector<pair<int,int>> parent; // {parent,rank}
     vector<int> cmp_size;
     // every cell has unique identity, (i,j) --> i*m + j;
